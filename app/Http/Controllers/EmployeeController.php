@@ -14,6 +14,9 @@ class EmployeeController extends Controller
     protected $employee_service;
     protected $company_service;
 
+    /**
+     * EmployeeController constructor.
+     */
     public function __construct()
     {
         $this->employee_service = new EmployeeService();
